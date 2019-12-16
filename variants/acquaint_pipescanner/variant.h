@@ -133,12 +133,12 @@ static const uint8_t ATN = PIN_ATN;
  */
 #define SPI_INTERFACES_COUNT 2
 
-#define PIN_SPI_MISO         (28u)
-#define PIN_SPI_MOSI         (29u)
-#define PIN_SPI_SCK          (30u)
-#define PERIPH_SPI           sercom4
+#define PIN_SPI_MISO         (36u)
+#define PIN_SPI_MOSI         (37u)
+#define PIN_SPI_SCK          (38u)
+#define PERIPH_SPI           sercom5
 #define PAD_SPI_TX           SPI_PAD_2_SCK_3
-#define PAD_SPI_RX           SERCOM_RX_PAD_0
+#define PAD_SPI_RX           SERCOM_RX_PAD_1
 
 static const uint8_t SS	  = PIN_A2 ;	// SERCOM4 last PAD is present on A2 but HW SS isn't used. Set here only for reference.
 static const uint8_t MOSI = PIN_SPI_MOSI ;
@@ -146,17 +146,17 @@ static const uint8_t MISO = PIN_SPI_MISO ;
 static const uint8_t SCK  = PIN_SPI_SCK ;
 
 
-#define PIN_SPI1_MISO         (36u)
-#define PIN_SPI1_MOSI         (37u)
-#define PIN_SPI1_SCK          (38u)
-#define PERIPH_SPI1           sercom5
+#define PIN_SPI1_MISO         (28u)
+#define PIN_SPI1_MOSI         (29u)
+#define PIN_SPI1_SCK          (30u)
+#define PERIPH_SPI1           sercom4
 #define PAD_SPI1_TX           SPI_PAD_2_SCK_3
-#define PAD_SPI1_RX           SERCOM_RX_PAD_1
+#define PAD_SPI1_RX           SERCOM_RX_PAD_0
 
 static const uint8_t SS1   = 39 ;	// HW SS isn't used. Set here only for reference.
-static const uint8_t MOSI1 = PIN_SPI_MOSI ;
-static const uint8_t MISO1 = PIN_SPI_MISO ;
-static const uint8_t SCK1  = PIN_SPI_SCK ;
+static const uint8_t MOSI1 = PIN_SPI1_MOSI ;
+static const uint8_t MISO1 = PIN_SPI1_MISO ;
+static const uint8_t SCK1  = PIN_SPI1_SCK ;
 
 /*
  * Wire Interfaces
