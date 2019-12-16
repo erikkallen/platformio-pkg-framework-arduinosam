@@ -16,8 +16,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _VARIANT_ITSYBITSY_ZERO_
-#define _VARIANT_ITSYBITSY_ZERO_
+#ifndef _VARIANT_ACQUAINT_PIPESCANNER_
+#define _VARIANT_ACQUAINT_PIPESCANNER_
 
 // The definitions here needs a SAMD core >=1.6.10
 #define ARDUINO_SAMD_VARIANT_COMPLIANCE 10610
